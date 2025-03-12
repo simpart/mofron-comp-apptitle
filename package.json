@@ -1,0 +1,31 @@
+{
+  "name": "mofron-comp-apptitle",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpart/mofron-comp-titlescreen.git"
+  },
+  "dependencies": {
+    "mofron-comp-text": "",
+    "mofron-comp-image": "",
+    "mofron-comp-framebutton": "",
+    "mofron-comp-appbase": "",
+    "mofron-layout-margin": "",
+    "mofron-event-click": ""
+  },
+  "keywords": [
+    "mofron",
+    "front-end"
+  ],
+  "author": "simparts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simpart/mofron-comp-titlescreen/issues"
+  },
+  "homepage": "https://github.com/simpart/mofron-comp-titlescreen#readme",
+  "description": ""
+}
