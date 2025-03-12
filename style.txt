@@ -1,0 +1,60 @@
+
+@media (orientation: portrait) {
+    .titlescreen_header {
+        display:     block !important;
+        text-align:  center;
+    }
+    
+    .titlescreen_image {
+        width:        50vw;
+        height:       50vw;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+
+    .titlescreen_button {
+        width:        70vw;
+        margin-left:  auto;
+        margin-right: auto;
+        position:     unset;
+        top:          unset;
+        left:         unset;
+    }
+}
+                
+@media (orientation: landscape) {
+    .titlescreen_header {
+        display: flex !important;
+        text-align: left;
+    }
+
+    .titlescreen_image {
+        width:        50vh;
+        height:       50vh;
+        margin-left:  auto;
+        margin-right: 5vw;
+        margin-top:   12.5vh;
+    }
+    
+    .titlescreen_button {
+        width:        40vw;
+        margin-left:  10vw;
+        margin-right: auto;
+        position:     absolute;
+        top:          30vh;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .titlescreen_image {
+        width:  70vw !important;
+        height: 70vw !important;
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    .titlescreen_image {
+        margin-top:   5vh;
+    }
+}
